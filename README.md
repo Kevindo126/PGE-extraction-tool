@@ -13,5 +13,5 @@ The tool will boost productivity and take out the labor of manually entering dat
 3. Pip 3 for tqdm (progress bar)
 
 # Todo or comments
--Establish a folder location for program to automatically fetch all the PDFs. 
--Automate converting process to reduce the need of user input.
+1. Establish a folder location for program to automatically fetch all the PDFs. 
+2. Automate converting process to reduce the need of user input.
