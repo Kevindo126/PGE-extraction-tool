@@ -6,16 +6,21 @@ import csv
 from math import ceil
 from tqdm import tqdm
 #need to install: sudo pip3 install tqdm
-#command:
-#To convert pdf to tiff
-#$convert -density 300 <some-pdf>.pdf -depth 8 <file>.tiff
 #
-#Use tesseract to extract text from .tiff file to .txt output
-#$tesseract <file>.tiff <output>
-#(output is a txt file)
-# 
-#Execute code:
+#Execute of code:
 #python3 oneTest.py
+#
+#Walkthrough of code:
+#First, the program asks for the pdf file of the PGE bill. The program will determine how many pages the PDF has and 
+#decides whether to split it into multiple pdfs for faster performance or keep as one pdf.
+#Then the program will ask user if they are readt to convert pdf to tiff. Program accepts 'y' for yes and 'n' for no; otherwise 
+#the program will quit.
+#Once the program converts pdf to tiff, it will ask user if they are ready to convert tiff to a text file using Tesseract.
+#This is also a yes or no question.
+#Once that is done, the program will create a csv file to capture specific fields from text file.
+#The program will take the text files, go through each page from the file and extract to csv file.
+#It will repeat this step until all text files are appended into the csv file.
+
 
 
 # Boolean values
