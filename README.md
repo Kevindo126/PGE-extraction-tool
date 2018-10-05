@@ -8,8 +8,8 @@ The finance department recieves PGE bills and the manually enters the specific d
 The tool will boost productivity and take out the labor of manually entering data into unity, as well as reducing human errors. Once PGE bill is recieved, it will be scanned into a PDF format. Once that is done, the tool will take the PDF and convert it into a tiff file. Then the program uses Tesseract to extract text and creates a text file. After that, the program will create a csv file with the specific fields and all the data from PGE in it.
 
 # Requirements
-Linux OS preferably Ubuntu 18.04 LTS
-Python 3
+Linux OS preferably Ubuntu 18.04 LTS \n
+Python 3 \n
 Pip 3 for tqdm (progress bar)
 
 # Todo or comments
