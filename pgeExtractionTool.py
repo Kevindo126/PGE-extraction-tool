@@ -96,9 +96,9 @@ def cleanUp(numOfSplit,numOfPages, pdfMod, folderName, outputPDF, outputTiff, ou
                 remove = outputTiff[k]
                 os.remove(remove)
             #Delete txt documents
-            # if csvDone:
-            #     remove = outputFile[k] + ".txt"
-            #     os.remove(remove)
+            if csvDone:
+                remove = outputFile[k] + ".txt"
+                os.remove(remove)
         except:
             break
     return
