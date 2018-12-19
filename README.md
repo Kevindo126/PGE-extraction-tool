@@ -10,8 +10,8 @@ The tool will boost productivity and take out the labor of manually entering dat
 # Requirements
 1. Linux OS preferably Ubuntu 18.04 LTS
 2. Python 3
-3. pip ($sudo apt install python3-pip)
-3. Pip 3 for tqdm (progress bar)($pip install tqdm)
+3. pip ($sudo apt-get install python3-pip)
+3. Pip 3 for tqdm (progress bar)($pip3 install tqdm)
 4. PyPDF2 for reading pdfs ($sudo apt-get install python3-pypdf2)
 
 # Todo or comments
