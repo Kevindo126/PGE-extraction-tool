@@ -17,7 +17,12 @@ The tool will boost productivity and take out the labor of manually entering dat
    ($sudo add-apt-repository ppa:malteworld/ppa;
     $sudo apt update;
     $sudo apt install pdftk)
-6. Tesseract for optical character recognition ($sudo apt-get install tesseract-ocr)
+6. modify ImageMagick policy to read/write pdf ($cd /etc/ImageMagick-6; $sudo nano policy.xml)
+   a. Go to <policymap>
+   b. Find the line <policy domain="coder" rights="none" pattern="PDF" />
+   c. change: rights="none" to rights="read|write"
+   d. Press ctrl + x and then enter to save
+7. Tesseract for optical character recognition ($sudo apt-get install tesseract-ocr)
    
 
 # Todo or comments
