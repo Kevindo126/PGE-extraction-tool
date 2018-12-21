@@ -14,9 +14,10 @@ The tool will boost productivity and take out the labor of manually entering dat
 3. Pip 3 for tqdm (progress bar)($pip3 install tqdm)
 4. PyPDF2 for reading pdfs ($sudo apt-get install python3-pypdf2)
 5. pdftk for splitting pdfs 
-   ($sudo add-apt-repository ppa:malteworld/ppa,
-    $sudo apt update,
+   ($sudo add-apt-repository ppa:malteworld/ppa;
+    $sudo apt update;
     $sudo apt install pdftk)
+6. Tesseract for optical character recognition ($sudo apt-get install tesseract-ocr)
    
 
 # Todo or comments
